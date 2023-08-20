@@ -16,8 +16,6 @@ def staff():
     if (sel == "📹video"):
         st.title("📹 Objects deletion Model")
         webrtc_streamer(key="example")
-    st.checkbox("Store")
-    st.checkbox("Show the detected labels")
     if(sel=="📷image"):
         imag()
     if (sel == "📊data"):
